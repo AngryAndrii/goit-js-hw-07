@@ -19,6 +19,5 @@ const makeElem = ({ preview, original, description }) => {
 };
 
 const markUp = galleryItems.map(el => makeElem(el));
-console.log(markUp);
 
 mainList.insertAdjacentHTML('afterbegin', markUp.join(' '));
